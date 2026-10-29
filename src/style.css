@@ -30,3 +30,24 @@
 
 /* Seamless model portrait and brand story on one ivory surface. */
 .story-editorial{background:#f1ede5;grid-template-columns:52% 48%;min-height:580px;overflow:hidden}.story-editorial .story-model{position:relative;max-height:none;min-height:580px}.story-model img{height:100%;width:100%;object-fit:cover;object-position:24% center}.story-model:after{content:'';position:absolute;inset:0 -1px 0 auto;width:20%;background:linear-gradient(90deg,transparent,#f1ede5)}.story-editorial .editorial-copy{padding:65px 14% 65px 8%}.story-editorial h2{font-size:clamp(38px,3.4vw,55px);line-height:1.13}.story-editorial .editorial-copy>p:not(.eyebrow){max-width:500px;font-size:13px;line-height:1.9;margin:28px 0}.story-editorial .text-link{display:inline-flex;align-items:center;gap:25px;margin-top:8px}.story-editorial .text-link .arrow-icon{margin-left:0}@media(max-width:1000px) and (min-width:701px){.story-editorial .editorial-copy{padding:45px 10% 45px 5%}.story-editorial .story-model{min-height:540px}}@media(max-width:700px){.story-editorial{grid-template-columns:1fr;min-height:0}.story-editorial .story-model{height:420px;min-height:0}.story-model img{object-position:25% center}.story-model:after{inset:auto 0 -1px;width:100%;height:23%;background:linear-gradient(180deg,transparent,#f1ede5)}.story-editorial .editorial-copy{padding:22px 7% 50px}.story-editorial h2{font-size:40px}.story-editorial .editorial-copy>p:not(.eyebrow){font-size:12px;margin:22px 0}}
+
+.about-editorial .about-model img{object-position:24% center}
+
+/* Let the About portrait fill the complete story panel. */
+.about-editorial .about-model{position:relative;max-height:none;min-height:600px;align-self:stretch}.about-editorial .about-model img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:24% center}@media(max-width:700px){.about-editorial .about-model{min-height:0;height:450px}}
+
+/* Compact spacing with the original retail and wholesale button colours. */
+.audience .button{padding:10px 17px}
+
+.footer-logo{display:inline-block}.footer-logo img{width:110px;height:110px;object-fit:contain}@media(max-width:700px){.footer-logo img{width:90px;height:90px}}
+
+.footer-logo{display:inline-flex;align-items:center;gap:20px}.footer-logo .footer-wordmark{font-family:Georgia,serif;font-size:36px;letter-spacing:4px;line-height:1.2}.footer-wordmark>span{display:block;font-family:Arial,sans-serif;font-size:11px;letter-spacing:5px;margin-top:8px}@media(max-width:700px){.footer-logo{gap:16px}.footer-logo .footer-wordmark{font-size:30px}}
+
+/* Dedicated mobile artwork keeps the complete necklace above the copy. */
+@media(max-width:700px){.hero.hero-campaign{min-height:0;display:block;padding:clamp(285px,89vw,440px) 7.5% 40px}.hero-campaign .campaign-background{background-image:url('hero-mobile.png');inset:0;height:100%;background-size:100% auto;background-position:center top;background-repeat:no-repeat;background-color:#241a15}.hero-campaign:after{background:linear-gradient(180deg,transparent 0%,transparent 40%,rgba(36,26,21,.15) 55%,#241a15 100%)}.hero-campaign .hero-copy{max-width:430px}.hero-campaign .eyebrow{margin-bottom:16px}.hero-campaign h1{font-size:clamp(42px,12vw,60px)}.hero-campaign .hero-rule{margin:20px 0 16px}.hero-campaign .hero-description{margin-bottom:22px}.hero-campaign .button{min-width:220px}}
+
+/* Blend the mobile artwork to the exact panel colour before its lower edge. */
+@media(max-width:700px){.hero-campaign .campaign-background{background-image:linear-gradient(to bottom,rgba(36,26,21,0) 0%,rgba(36,26,21,0) 40%,#241a15 72%,#241a15 100%),url('hero-mobile.png');background-size:100% auto,100% auto;background-position:center top,center top;background-repeat:no-repeat;background-color:#241a15}.hero-campaign:after{background:linear-gradient(to bottom,transparent 0%,transparent 35%,rgba(36,26,21,.12) 45%,#241a15 68%,#241a15 100%)}.hero-campaign .hero-copy{background:transparent}}
+
+/* Bring the brand line into the necklace image for one continuous hero. */
+@media(max-width:700px){.hero.hero-campaign{padding-top:clamp(225px,68vw,340px)}.hero-campaign .campaign-background{background-image:linear-gradient(to bottom,rgba(36,26,21,0) 0%,rgba(36,26,21,0) 34%,rgba(36,26,21,.18) 48%,#241a15 86%,#241a15 100%),url('hero-mobile.png')}.hero-campaign:after{background:linear-gradient(to bottom,transparent 0%,transparent 32%,rgba(36,26,21,.12) 43%,rgba(36,26,21,.75) 67%,#241a15 91%,#241a15 100%)}.hero-campaign .eyebrow{position:relative;text-shadow:0 1px 8px #160e08,0 0 16px #160e08;margin-bottom:20px}.hero-campaign h1{text-shadow:0 2px 16px rgba(25,15,9,.4)}}
