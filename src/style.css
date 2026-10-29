@@ -51,3 +51,40 @@
 
 /* Bring the brand line into the necklace image for one continuous hero. */
 @media(max-width:700px){.hero.hero-campaign{padding-top:clamp(225px,68vw,340px)}.hero-campaign .campaign-background{background-image:linear-gradient(to bottom,rgba(36,26,21,0) 0%,rgba(36,26,21,0) 34%,rgba(36,26,21,.18) 48%,#241a15 86%,#241a15 100%),url('hero-mobile.png')}.hero-campaign:after{background:linear-gradient(to bottom,transparent 0%,transparent 32%,rgba(36,26,21,.12) 43%,rgba(36,26,21,.75) 67%,#241a15 91%,#241a15 100%)}.hero-campaign .eyebrow{position:relative;text-shadow:0 1px 8px #160e08,0 0 16px #160e08;margin-bottom:20px}.hero-campaign h1{text-shadow:0 2px 16px rgba(25,15,9,.4)}}
+
+/* Override Safari’s default blue button text. */
+.menu-toggle{color:var(--ink);-webkit-text-fill-color:var(--ink);appearance:none;-webkit-appearance:none}
+
+/* Readable feature-strip labels across screen sizes. */
+.values-strip{font-size:13px;letter-spacing:.2px;color:#655a4f;line-height:1.6}.values-strip span{display:flex;align-items:flex-start}.values-strip span:before{flex-shrink:0}@media(max-width:700px){.values-strip{font-size:12px;grid-template-columns:1fr 1fr;gap:18px 16px;padding:22px 6%}.values-strip span:before{margin-right:8px}}@media(max-width:360px){.values-strip{font-size:12px;gap:16px 12px;padding-left:5%;padding-right:5%}}
+
+/* Comfortable mobile reading sizes throughout the catalogue. */
+@media(max-width:700px){
+body{font-size:16px;line-height:1.7}
+.announcement{font-size:10px;letter-spacing:.9px}
+.menu-toggle,.header-enquiry{font-size:14px}nav a{font-size:16px}
+.eyebrow,.code{font-size:12px;letter-spacing:1.3px}
+.hero-campaign .eyebrow,.detail-copy .eyebrow{font-size:11px;letter-spacing:1px}
+.hero-campaign .hero-description,.hero-description{font-size:15px;line-height:1.8;max-width:100%}
+.button,.hero-campaign .button,.audience .button{font-size:14px}
+.values-strip{font-size:14px;gap:18px 14px}
+.section-heading .text-link,.text-link{font-size:14px}
+.product-info h3{font-size:28px;line-height:1.12}
+.product-info>p:not(.code){font-size:14px;margin:8px 0 16px}
+.product-photo>span{font-size:12px;padding:11px 10px}
+.price-link{font-size:13px;line-height:1.6;gap:8px}
+.page-intro>p:not(.eyebrow){font-size:16px}
+.collection-toolbar,.collection-toolbar small{font-size:12px}
+.breadcrumbs{font-size:12px;flex-wrap:wrap}
+.detail-description{font-size:16px}
+dl>div{font-size:14px;line-height:1.6}
+.wholesale-link{font-size:14px;line-height:1.7}
+.enquiry-note,details,.detail-image>span{font-size:13px;line-height:1.8}
+.editorial-copy>p:not(.eyebrow),.story-editorial .editorial-copy>p:not(.eyebrow){font-size:16px;line-height:1.8}
+.audience p:not(.eyebrow),.contact-grid>div>p:not(.eyebrow){font-size:16px}
+.wholesale-panel ul{font-size:15px;line-height:1.8}
+.contact-lines span{font-size:11px}.contact-lines a{font-size:20px}
+.footer-main p,.footer-main>div>a:not(.footer-logo){font-size:14px}
+.footer-main .eyebrow{font-size:11px}.footer-bottom{font-size:12px;line-height:1.8}
+.product-card .arrow-icon{width:13px;height:13px}
+}
