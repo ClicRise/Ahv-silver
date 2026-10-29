@@ -54,3 +54,6 @@
 
 /* Slightly larger enquiry links in the homepage featured collection only. */
 .home-featured .price-link{font-size:12px;padding-top:6px;padding-bottom:8px}@media(max-width:700px){.home-featured .price-link{font-size:11px;line-height:1.6}}
+
+/* Keep the mobile menu in brand colours on Safari. */
+.menu-toggle{color:var(--ink);-webkit-text-fill-color:var(--ink);appearance:none;-webkit-appearance:none}
