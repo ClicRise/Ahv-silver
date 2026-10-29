@@ -25,3 +25,5 @@
 
 /* Softer, more compact hero call to action. */
 .hero-campaign .button{background:#d7c49a;min-width:225px;padding:12px 22px;font-size:11px}.hero-campaign .button:hover{background:#e4d5b5}@media(max-width:700px){.hero-campaign .button{min-width:220px;padding:11px 20px;font-size:11px}}
+
+.arrow-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:14px;height:14px;vertical-align:middle}.arrow-icon svg{display:block;width:100%;height:100%}
