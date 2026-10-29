@@ -57,3 +57,6 @@
 
 /* Keep the mobile menu in brand colours on Safari. */
 .menu-toggle{color:var(--ink);-webkit-text-fill-color:var(--ink);appearance:none;-webkit-appearance:none}
+
+/* Modest mobile increase for the four feature-strip labels only. */
+@media(max-width:700px){.values-strip{font-size:10px;line-height:1.7;gap:16px 12px}}
