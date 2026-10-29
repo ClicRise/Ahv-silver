@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Coin & Crystal",
+    "code": "AHV-001",
+    "image": 1,
+    "slug": "coin-crystal",
+    "description": "A rhythmic arrangement of textured coins, bright accents and a delicate drop."
+  },
+  {
+    "name": "Turquoise Bloom",
+    "code": "AHV-002",
+    "image": 2,
+    "slug": "turquoise-bloom",
+    "description": "Fine strands meet a turquoise-toned botanical centrepiece and a colourful drop."
+  },
+  {
+    "name": "Garden Garland",
+    "code": "AHV-003",
+    "image": 3,
+    "slug": "garden-garland",
+    "description": "A delicate floral arrangement with colourful accents and a teardrop centrepiece."
+  },
+  {
+    "name": "Midnight Flora",
+    "code": "AHV-004",
+    "image": 4,
+    "slug": "midnight-flora",
+    "description": "Sculptural flowers and deep blue accents bring a distinctive flourish to fine strands."
+  },
+  {
+    "name": "Emerald Cascade",
+    "code": "AHV-005",
+    "image": 5,
+    "slug": "emerald-cascade",
+    "description": "Leaf-inspired details and colourful cascading drops create a graceful focal point."
+  },
+  {
+    "name": "Golden Petals",
+    "code": "AHV-006",
+    "image": 6,
+    "slug": "golden-petals",
+    "description": "Layered petal textures and floral accents create a bold, sculptural silhouette."
+  },
+  {
+    "name": "Rose Medallion",
+    "code": "AHV-007",
+    "image": 7,
+    "slug": "rose-medallion",
+    "description": "Oval medallions with rose-coloured and clear accents, finished with a delicate drop."
+  },
+  {
+    "name": "Colour Mosaic",
+    "code": "AHV-008",
+    "image": 8,
+    "slug": "colour-mosaic",
+    "description": "A playful rhythm of geometric shapes, colourful accents and a blue-toned pendant."
+  },
+  {
+    "name": "Celestial Circles",
+    "code": "AHV-009",
+    "image": 9,
+    "slug": "celestial-circles",
+    "description": "Interlocking circular motifs with rose-coloured and clear accents."
+  },
+  {
+    "name": "Heritage Coins",
+    "code": "AHV-010",
+    "image": 10,
+    "slug": "heritage-coins",
+    "description": "Textured coin motifs and bright accents come together in a traditional silhouette."
+  }
+]
